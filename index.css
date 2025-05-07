@@ -790,7 +790,7 @@ form textarea {
   min-height: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1768px) {
   .container {
     padding: 25px;
   }
@@ -800,8 +800,8 @@ form textarea {
   }
 
   .info-card {
-    width: 118%;
-    margin-left: -20px;
+    width: 128%;
+    margin-left: -30px;
   }
 
   .icon,
