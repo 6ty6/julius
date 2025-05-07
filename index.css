@@ -767,7 +767,7 @@ form textarea {
   outline: none;
   background: transparent;
   font-size: 14px;
-  color: #464747;
+  color: #000000;
 }
 
 form input:focus,
@@ -775,10 +775,15 @@ form textarea:focus {
   border-bottom-color: #6bcb78;
 }
 
-.half-inputs {
-  display: flex;
-  gap: 10px;
+input::placeholder {
+  color: #120707; /* Replace with your desired color */
 }
+
+textarea::placeholder {
+  color: #000000; /* Change to your preferred color */
+  opacity: 1;  /* Ensures the color is not too faint */
+}
+
 
 form textarea {
   resize: vertical;
@@ -792,6 +797,11 @@ form textarea {
 
   .contact-left h2 {
     font-size: 24px;
+  }
+
+  .info-card {
+    width: 118%;
+    margin-left: -20px;
   }
 
   .icon,
@@ -830,13 +840,13 @@ form textarea {
   }
 }
 
-.btn-contact {
+.btn-contact2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   padding: 12px 24px;
-  background-color: #00cc66; /* Green background */
+  background: linear-gradient(45deg, #00b96d, #1a4d2e);
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -847,8 +857,8 @@ form textarea {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.btn-contact:hover {
-  background-color: #00b359;
+.btn-contact2:hover {
+  background: linear-gradient(45deg, #1a4d2e, #00b96d);
 }
 
 .send-icon {
@@ -870,7 +880,7 @@ form textarea {
   border: none;
   border-bottom: 1px solid white;
   background-color: transparent;
-  color: rgb(120, 114, 114);
+  color: rgb(11, 11, 11);
   font-family: inherit;
   outline: none;
   appearance: none;
@@ -888,7 +898,7 @@ form textarea {
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  color: rgb(115, 115, 115);
+  color: rgb(18, 17, 17);
   font-size: 30px;
 }
 
