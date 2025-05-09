@@ -17,3 +17,4 @@ function toggleMenu() {
     once: false, // Trigger animation only once
     offset: 100, // Trigger animation when scrolled 100px into the viewport
   });
+  
