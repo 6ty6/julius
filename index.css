@@ -698,7 +698,7 @@ a .gnn:hover {
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  max-width: 1200px;
+  max-width: 4200px;
   margin: 0 auto;
   flex-wrap: wrap;
   background:linear-gradient(135deg, #2a3a2c, #9bc69d, #66a169);
@@ -743,7 +743,7 @@ a .gnn:hover {
 
 .info-card .iconify {
   font-size: 24px;
-  margin-right: 10px;
+  margin-right: 20px;
 
 }
 
@@ -790,7 +790,7 @@ form textarea {
   min-height: 100px;
 }
 
-@media (max-width: 1768px) {
+@media (max-width: 2768px) {
   .container {
     padding: 25px;
   }
@@ -800,8 +800,9 @@ form textarea {
   }
 
   .info-card {
-    width: 128%;
+    max-width: 158%;
     margin-left: -30px;
+
   }
 
   .icon,
@@ -819,6 +820,7 @@ form textarea {
   .container {
     margin: 30px 20px;
     padding: 20px;
+    
   }
 
   .contact-left h2 {
