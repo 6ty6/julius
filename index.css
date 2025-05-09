@@ -901,15 +901,26 @@ select option {
   margin-bottom: 50px;
 }
 
-.values-section .highlight {
-  color: #4b9141;
+.values-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 0 20px;
 }
 
-.values-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+.values-row {
+  display: flex;
   gap: 30px;
-  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.top-row {
+  justify-content: center;
+}
+
+.bottom-row {
+  justify-content: center;
 }
 
 .value-card {
@@ -948,6 +959,20 @@ select option {
   font-size: 0.95rem;
   color: #eae7e7;
   line-height: 1.6;
+}
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .values-row {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .value-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
 
 
