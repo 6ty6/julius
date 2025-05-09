@@ -417,10 +417,6 @@
     flex-wrap: wrap;
   }
   
-  .footer-logo img {
-    max-height: 60px;
-  }
-  
   .footer-links {
     display: flex;
     gap: 2rem;
@@ -464,13 +460,9 @@
       gap: 1.5rem;
     }
   
-    .footer-logo {
-      order: 1;
-    }
-  
     .footer-links {
       order: 2;
-      flex-direction: column;
+      flex-direction: colurmn;
       gap: 1rem;
     }
   
